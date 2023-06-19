@@ -8,13 +8,13 @@ As a software engineer, I firmly believe in the power of a well-curated portfoli
 
 ### `Home`
 
-<p><img src="website-design/1.png" alt="Page 1" width="50%" height="50%"></p>
+<p><img align="left" src="website-design/1.png" alt="Page 1" width="50%" height="50%"></p>
 
-<p><img src="website-design/2.png" alt="Page 2" width="50%" height="50%"></p>
+<p><img align="right" src="website-design/2.png" alt="Page 2" width="50%" height="50%"></p>
 
-<p><img src="website-design/3.png" alt="Page 3" width="50%" height="50%"></p>
+<p><img align="left" src="website-design/3.png" alt="Page 3" width="50%" height="50%"></p>
 
-<p><img src="website-design/4.png" alt="Page 4" width="50%" height="50%"></p>
+<p><img align="right" src="website-design/4.png" alt="Page 4" width="50%" height="50%"></p>
 
 <p><img src="website-design/5.png" alt="Page 5" width="50%" height="50%"></p>
 
@@ -28,11 +28,11 @@ As a software engineer, I firmly believe in the power of a well-curated portfoli
 
 ### `About`
 
-<p><img src="website-design/8.png" alt="Page 8" width="50%" height="50%"></p>
+<p><img align="left" src="website-design/8.png" alt="Page 8" width="50%" height="50%"></p>
 
-<p><img src="website-design/9.png" alt="Page 9" width="50%" height="50%"></p>
+<p><img align="right" src="website-design/9.png" alt="Page 9" width="50%" height="50%"></p>
 
-<p><img src="website-design/10.png" alt="Page 10" width="50%" height="50%"></p>
+<p><img align="left" src="website-design/10.png" alt="Page 10" width="50%" height="50%"></p>
 
 ### `Contact`
 
