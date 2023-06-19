@@ -8,7 +8,7 @@ As a software engineer, I firmly believe in the power of a well-curated portfoli
 
 ### Home
 
-<p><img src="website-design/1.png" alt="Page 1"></p>
+<p><img src="website-design/1.png" alt="Page 1" width="50%" height="50%"></p>
 
 <p><img src="website-design/2.png" alt="Page 2"></p>
 
