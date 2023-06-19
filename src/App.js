@@ -12,13 +12,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route index element={<Work/>}/>
-        <Route index element={<About/>}/>
-        <Route index element={<Contact/>}/>
-      </Routes>
-      <Footer/>
+        <Route path='/work' element={<Work/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes> */}
+      {/* <Footer/> */}
     </BrowserRouter>
   );
 }
