@@ -4,21 +4,22 @@ import Work from './components/Work';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 import './App.scss';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
-      {/* <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/work' element={<Work/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-      </Routes> */}
-      {/* <Footer/> */}
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route index element={<Home/>}/>
+          <Route path='/work' element={<Work/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+        </Route>
+      </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
