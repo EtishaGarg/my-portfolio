@@ -1,0 +1,12 @@
+.nav-link {
+    padding: 0.5rem 1.5rem;
+    font-weight: 400;
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    border-radius: 0.25rem;
+
+    &:hover{
+        font-weight: 700;
+    }
+
+}
