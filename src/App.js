@@ -3,7 +3,6 @@ import Home from './components/Home';
 import Work from './components/Work';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import Layout from './components/Layout';
 
 import './App.scss';
@@ -19,7 +18,6 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Route>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   );
 }
