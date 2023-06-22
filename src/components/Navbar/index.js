@@ -4,7 +4,7 @@ import logoE from '../../assets/images/logoE.png'
 
 const Navbar = () => {
     return(
-        <div className='h-28 flex justify-between py-7 px-10'>
+        <div className='h-20 flex justify-between py-7 px-10 bg-white sticky top-0 w-screen'>
             <Link className='flex justify-center items-center' to='/'>
                 <img className='w-10 h-12' src={logoE} alt='logo'/>
                 <h3 className='text-2xl font-normal'>tisha Garg</h3>
