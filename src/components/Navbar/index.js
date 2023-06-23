@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import logoE from '../../assets/images/logoE.png'
+import logoE from '../../assets/logoE.png'
 
 const Navbar = () => {
     return(

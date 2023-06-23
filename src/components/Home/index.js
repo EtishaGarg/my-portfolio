@@ -1,5 +1,5 @@
 import './index.scss'
-import profile from '../../assets/images/profile.png'
+import profile from '../../assets/profile.png'
 // import yt1 from '../../assets/images/yt1.jpg'
 import { Link } from 'react-router-dom'
 import YT_Card from "../Cards/YT_Card"
