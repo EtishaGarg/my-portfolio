@@ -1,9 +1,10 @@
 import './index.scss'
 import profile from '../../assets/profile.png'
-// import yt1 from '../../assets/images/yt1.jpg'
 import { Link } from 'react-router-dom'
 import YT_Card from "../Cards/YT_Card"
 import YT_data from "../../data/YT_data"
+import Dev_Card from "../Cards/Dev_Card"
+import Dev_data from "../../data/Dev_data"
 
 
 
@@ -12,6 +13,15 @@ const Home = () => {
     const yt_cards = YT_data.map(item => {
         return (
             <YT_Card
+                key={item.id}
+                {...item}
+            />
+        )
+    })
+
+    const dev_cards = Dev_data.map(item => {
+        return (
+            <Dev_Card
                 key={item.id}
                 {...item}
             />
@@ -40,16 +50,22 @@ const Home = () => {
                 <div className='grid grid-cols-3 gap-8 mt-6'>
                     {yt_cards}
                 </div>
-
+                
                 <div className='grid mt-6'>
                     <a className='bg-purple-300 font-bold text-2xl px-3 py-2 m-auto rounded shadow-xl hover:ring-2 hover:text-white' href="https://www.youtube.com/channel/UCNliY-e1-7VNtuWgrSib1UQ" target="_blank">Click to watch more! &gt;&gt;&gt;</a>
                 </div>
             </div>
 
             {/* Developer community */}
-            
 
+            <div className='flex-col justify-center items-center py-7 px-10'>
+                <p className='mt-14 text-4xl font-bold text-center'>Developer Community Events</p>
+                <p className='mt-3 text-lg font-normal text-center'>Have been organising and hosting community events</p>
 
+                <div className='grid grid-cols-3 gap-8 mt-6'>
+                    {dev_cards}
+                </div>
+            </div>
             
             
         </div>
