@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='grid grid-cols-3 grid-rows-2 gap-x-6 gap-y-2 justify-center items-center'>
                         <a className='social-link' href={"https://twitter.com/GargEtisha"} target="_blank">Twitter</a>
                         <a className='social-link' href={"https://www.linkedin.com/in/etisha-garg/"} target="_blank">LinkedIn</a>
-                        <a className='social-link' href={"youtube.com/EtishaGarg"} target="_blank">YouTube</a>
+                        <a className='social-link' href={"https://www.youtube.com/EtishaGarg"} target="_blank">YouTube</a>
                         <a className='social-link' href={"https://github.com/EtishaGarg"} target="_blank">GitHub</a>
                         <a className='social-link' href={"https://www.instagram.com/couple_in_tech/"} target="_blank">Instagram</a>
                     </div>
