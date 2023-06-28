@@ -5,6 +5,8 @@ import YT_Card from "../Cards/YT_Card"
 import YT_data from "../../data/YT_data"
 import Dev_Card from "../Cards/Dev_Card"
 import Dev_data from "../../data/Dev_data"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -28,6 +30,10 @@ const Home = () => {
         )
     })
 
+    const handleSubmit = (event) => {
+        event.preventDefault()
+    }
+
     return(
         <div className='flex-col justify-center items-center'>
 
@@ -36,7 +42,7 @@ const Home = () => {
                 <div>
                     <p className='mt-10 text-4xl font-bold'>👋Hey there, I'm Etisha</p>
                     <p className='mt-8 mr-60 text-lg mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <Link to='/contact' className='bg-purple-300 px-3 py-2 text-2xl font-bold rounded shadow-xl hover:ring-2 hover:text-white'>CONTACT ME</Link>
+                    <Link to='/contact' className='bg-violet-300 px-3 py-2 text-2xl font-bold rounded shadow-xl hover:ring-2 hover:text-white'>CONTACT ME</Link>
                 </div>
                 <img src={profile} alt='profile image' className="h-[380px] w-[450px]"/>
             </div>
@@ -52,7 +58,7 @@ const Home = () => {
                 </div>
                 
                 <div className='grid mt-6'>
-                    <a className='bg-purple-300 font-bold text-2xl px-3 py-2 m-auto rounded shadow-xl hover:ring-2 hover:text-white' href="https://www.youtube.com/channel/UCNliY-e1-7VNtuWgrSib1UQ" target="_blank">Click to watch more! &gt;&gt;&gt;</a>
+                    <a className='bg-violet-300 font-bold text-2xl px-3 py-2 m-auto rounded shadow-xl hover:ring-2 hover:text-white' href="https://www.youtube.com/channel/UCNliY-e1-7VNtuWgrSib1UQ" target="_blank">Click to watch more! &gt;&gt;&gt;</a>
                 </div>
             </div>
 
@@ -66,8 +72,23 @@ const Home = () => {
                     {dev_cards}
                 </div>
             </div>
-            
-            
+
+            {/* Subscribe to newsletter */}
+
+            <div className='flex justify-center items-center py-7 px-10 bg-gray-100 mt-8'>
+                <div className='bg-violet-300 w-[700px] h-[180px] m-auto rounded'>
+                    {/* <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/> */}
+                    <p className='pt-3 text-4xl font-bold text-center'>Subscribe to the newsletter</p>
+                    <p className='mt-1 mb-3 text-lg font-normal text-center'>Stay up to date with latest news and updates</p>
+                    <form onSubmit={handleSubmit} className='flex justify-center items-center gap-3 mt-7'>
+                        <input className='h-[36px] rounded p-2' type='email' name='email' placeholder='Enter your Email' required/>
+                        <button className='bg-violet-500 p-1 text-xl font-bold rounded shadow-xl hover:ring-2 hover:text-white'>SUBSCRIBE</button>
+                    </form>
+                </div>
+                
+
+            </div>
+  
         </div>
     )
 }
