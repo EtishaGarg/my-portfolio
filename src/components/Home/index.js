@@ -76,17 +76,15 @@ const Home = () => {
             {/* Subscribe to newsletter */}
 
             <div className='flex justify-center items-center py-7 px-10 bg-gray-100 mt-8'>
-                <div className='bg-violet-300 w-[700px] h-[180px] m-auto rounded'>
+                <div className='bg-violet-300 flex flex-col items-center m-auto rounded px-14 py-4'>
                     {/* <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/> */}
-                    <p className='pt-3 text-4xl font-bold text-center'>Subscribe to the newsletter</p>
-                    <p className='mt-1 mb-3 text-lg font-normal text-center'>Stay up to date with latest news and updates</p>
-                    <form onSubmit={handleSubmit} className='flex justify-center items-center gap-3 mt-7'>
-                        <input className='h-[36px] rounded p-2' type='email' name='email' placeholder='Enter your Email' required/>
-                        <button className='bg-violet-500 p-1 text-xl font-bold rounded shadow-xl hover:ring-2 hover:text-white'>SUBSCRIBE</button>
+                    <p className='pt-3 text-4xl font-bold'>Subscribe to the newsletter</p>
+                    <p className='mt-1 mb-3 text-lg font-normal'>Stay up to date with latest news and updates</p>
+                    <form onSubmit={handleSubmit} className='flex justify-center items-center gap-2 mt-2'>
+                        <input className='h-[36px] rounded p-2 w-auto' type='email' name='email' placeholder='Enter your Email' required/>
+                        <button className='bg-violet-500 px-2 py-1 text-xl font-bold rounded shadow-xl hover:ring-2 hover:text-white'>Subscribe</button>
                     </form>
                 </div>
-                
-
             </div>
   
         </div>

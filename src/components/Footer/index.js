@@ -5,7 +5,7 @@ import logoE from '../../assets/logoE.png'
 const Footer = () => {
     return(
         <div className='pt-15 flex-col justify-center items-center text-center w-screen'>
-            <div className='h-20 flex justify-between py-7 px-10 bg-white sticky w-screen'>
+            <div className='flex justify-between py-7 px-10 bg-white sticky w-screen'>
                 <Link to='/'>
                     <img className='w-20 h-22' src={logoE} alt='logo'/>
                 </Link>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className='bg-gray-100 text-medium mt-[100px]'>© Copyrights by Etisha Garg. All rights reserved.</p>
+            <p className='bg-gray-100 text-medium mt-[100px] text-left'>© Copyrights by Etisha Garg. All rights reserved.</p>
         </div>
 
     )
