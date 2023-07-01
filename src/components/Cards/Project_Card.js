@@ -17,7 +17,7 @@ const Dev_Card = (props) => {
                 <button className="shadow-lg text-white bg-violet-500 px-2 text-xl font-bold rounded">{props.tag2}</button>
                 <button className="shadow-lg text-white bg-violet-500 px-2 text-xl font-bold rounded">{props.tag3}</button>
             </div>
-            <a href={props.github} className="my-2 font-bold text-lg hover:text-xl" target="_blank">View on Github &gt;&gt;</a>
+            <a href={props.github} className="my-2 font-bold text-xl hover:scale-110" target="_blank">View on Github &gt;&gt;</a>
         </div>
 
     )
