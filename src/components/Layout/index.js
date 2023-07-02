@@ -8,6 +8,7 @@ function Layout() {
     <div>
       <Navbar/>
       <Outlet/>
+      <hr className="h-0.5 bg-gray-100 border-0"></hr>
       <Footer/>
     </div>
   )

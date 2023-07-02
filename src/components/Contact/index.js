@@ -4,7 +4,7 @@ import {faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
     return(
-        <div className='flex ml-20 mb-60 py-7 px-10 gap-10'>
+        <div className='flex ml-20 mb-40 py-7 px-10 gap-10'>
             <div className='flex flex-col'>
                 <h1 className="text-4xl font-bold mt-[100px]">Let's chat.</h1>
                 <p className='text-xl mt-4 w-[80%]'>Feel free to reach out to work together on a project, discuss project ideas, or just a friendly hello.</p>
