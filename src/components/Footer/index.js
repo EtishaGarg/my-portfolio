@@ -10,7 +10,7 @@ const Footer = () => {
                     <img className='w-20 h-22' src={logoE} alt='logo'/>
                 </Link>
                 <div className='flex-col justify-center items-center'>
-                    <p className='text-left ml-[30px] mb-2 text-2xl font-bold h-10 '>Socials</p>
+                    <p className='text-left ml-[30px] mb-2 text-xl font-bold h-10'>Socials</p>
                     <div className='grid grid-cols-3 grid-rows-2 gap-x-6 gap-y-2 justify-center items-center'>
                         <a className='social-link' href={"https://twitter.com/GargEtisha"} target="_blank">Twitter</a>
                         <a className='social-link' href={"https://www.linkedin.com/in/etisha-garg/"} target="_blank">LinkedIn</a>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className='bg-gray-100 text-medium mt-[100px] w-screen'>© Copyrights by Etisha Garg. All rights reserved.</p>
+            <p className='bg-gray-100 text-medium mt-[40px] w-screen'>© Copyrights by Etisha Garg. All rights reserved.</p>
         </div>
 
     )
